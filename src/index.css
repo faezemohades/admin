@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Gandom;
+  src: url('./assets/font/Gandom/Gandom.eot');
+  src: url('./assets/font/Gandom/Gandom.eot?#iefix') format('embedded-opentype'), url('./assets/font/Gandom/Gandom.woff') format('woff'), url('./assets/font/Gandom/Gandom.ttf') format('truetype');
+  font-weight: normal;
+}
+
+/*@font-face {
+  font-family: Gandom;
+  src: url('./assets/font/Gandom/Gandom-Bold.eot');
+  src: url('./assets/font/Gandom/Gandom-Bold.eot?#iefix') format('embedded-opentype'), url('./assets/font/Gandom/Gandom-Bold.woff') format('woff'), url('./assets/font/Gandom/Gandom-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+*/
+
+
+body {
+  direction: rtl;
+  font-family: Gandom !important;
+  font-size: 14px;
+  background-color: #FAFBFB;
+  line-height: 1.75rem;
+}
+
+:root {
+  --main-color: #03C9D7;
+  --light-primary-color: #F8F9FA;
+  --dark-primary-color: #20232A;
+  --seconary-color: #FB9678;
+  --light-bg-color: #FAFBFB;
+  --dark-bg-color: #21242B;
+  --dark-box: #32363E;
+  --light-box: #fff;
+  --dark-text: #E6E5E8;
+  --light-text: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+td {
+  font-size: 14px;
+  color: #6f7286 !important;
 }

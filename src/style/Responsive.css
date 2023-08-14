@@ -1,0 +1,142 @@
+﻿@media (min-width:1440px) and (max-width:1800px) {
+    .side-div {
+        width: 20%;
+    }
+    .main-div {
+        width: 80%;
+    }
+    .image {
+        position: relative;
+        left: 60px;
+    }
+    .chart {
+        height: 270px;
+    }
+   
+}
+
+@media (min-width:1200px) and (max-width:1440px) {
+    .side-div {
+        width: 25%;
+    }
+    .main-div {
+        width: 75%;
+    }
+    .image {
+        position: relative;
+        left: 50px;
+    }
+    .chart {
+        height: 210px;
+    }
+ 
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
+        .side-div {
+            width: 28%;
+        }
+        .main-div {
+            width: 72%;
+        }
+    .chart {
+        height:180px;
+    }
+ 
+    }
+
+@media (max-width:1024px) {
+        .Sidebar {
+            display: none;
+        }
+        .side-div {
+            width: 0%;
+        }
+        .main-div {
+            width: 100%;
+        }
+        .logo{
+            display:none;
+        }
+    .chart {
+        height: 200px;
+    }
+ 
+    }
+
+@media (min-width:1024px) {
+        .canvas {
+            display: none;
+        }
+        .toggle {
+            display: none;
+        }
+    }
+
+@media (min-width:990px) and (max-width:1200px) {
+    .image {
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (max-width:990px) {
+        .login-row {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .login-img {
+            width: 100%;
+            height: auto;
+        }
+        .login-form {
+            width: 100%;
+            height:50%;
+        }
+        .login-div {
+            height: auto;
+        }
+        .login-width {
+            width: 50vw;
+        }
+        .image {
+            position: relative;
+            left:0;
+        }
+    .chart {
+        height: 180px;
+    }
+    
+    }
+
+@media (max-width:768px) {
+    .profile-row {
+         justify-content: center;
+     }
+    .sum-trafic {
+        display: flex;
+        justify-content: center;
+    }
+    .chart {
+        height: 190px;
+    }
+}
+
+@media (max-width:425px) {
+    .logo {
+        width: 60px;
+    }
+    .login-logo {
+        width: 100px;
+    }
+    .chart {
+        height: 200px;
+    }
+    .chart {
+        height: 120px;
+    }
+ 
+}
+
+  
+
