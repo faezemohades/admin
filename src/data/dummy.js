@@ -10,11 +10,6 @@ import { BiCommentEdit } from 'react-icons/bi';
 import { MdPayment } from 'react-icons/md';
 import { TbReportMoney } from 'react-icons/tb';
 
-
-
-
-
-
 export const sideBar = [
     {
         "title": "",
@@ -146,4 +141,15 @@ export const typeIncome = [
     },
 ];
 
- 
+
+
+
+export const billColumns = ['ردیف', 'نوع حساب ', 'شرح', 'تاریخ', 'بستانکار(ریال)', 'مانده (ریال) '];
+
+export const trafficColumns = ['ردیف', 'هاست', 'عنوان', 'ترافیک(گیگ)', 'تاریخ', 'نوع درآمد'];
+
+
+export const contentColumns = ['ردیف', 'عنوان فارسی', 'عنوان لاتین', 'زبان', 'وضعیت', 'سال انتشار', 'جزییات'];
+
+
+export const hostColumns = ['نام هاست', 'ای پی', 'مدیر','وضعیت'];
